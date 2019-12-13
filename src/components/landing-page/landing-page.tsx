@@ -175,15 +175,18 @@ export class LandingPage {
           <div class="container">
             <div class="two-col">
               <hgroup>
-                <h2>The perfect tool for <strong>building a design system.</strong></h2>
+                <h2><strong>Verified Integrity</strong></h2>
               </hgroup>
               <div>
                 <ul class="list--icon list--unstyled">
-                  <li><app-icon name="checkmark"/>Ensure consistent UX and brand experiences, at scale</li>
-                  <li><app-icon name="checkmark"/>Web components run on any platform or device</li>
+                  <li><app-icon name="checkmark"/> Battery powered sensors in the envelope detect any attempts to open or manipulate the package.</li>
+                  {/**
+                   *<li><app-icon name="checkmark"/>Web components run on any platform or device</li>
                   <li><app-icon name="checkmark"/>Build a custom UI library that works across teams and projects</li>
+                   */}
                 </ul>
-                <p>Interested in learning more about building design systems with Stencil?</p>
+                {/**<p>Interested in learning more about building design systems with Stencil?</p> */}
+                
                 <stencil-route-link anchorClass="btn btn--tertiary btn--small" url="/docs/stencil-for-design-systems">Show me more</stencil-route-link>
               </div>
             </div>
@@ -194,13 +197,15 @@ export class LandingPage {
           <div class="container">
             <div class="two-col">
               <hgroup>
-                <h2><strong>Awesome developer experience</strong> out of the box.</h2>
+                <h2><strong>Designated Recipient</strong></h2>
               </hgroup>
               <div>
                 <ul class="list--icon list--unstyled">
-                  <li><app-icon name="checkmark"/> Built-in dev-server for hot module reloading</li>
+                  <li><app-icon name="checkmark"/>The sender will receive proof that the package was received intact by the designated recipient.</li>
+                  {/*
                   <li><app-icon name="checkmark"/> Screenshot visual UI diffs</li>
                   <li><app-icon name="checkmark"/> Auto-generate component documentation <br/><span class="small">(including css variables)</span></li>
+                  */}
                 </ul>
               </div>
             </div>
@@ -211,11 +216,52 @@ export class LandingPage {
           <div class="container">
             <div class="two-col">
               <hgroup>
-                <h2><strong>Build one component library</strong> for all of your apps.</h2>
+                <h2><strong>Limitless Use-Cases</strong></h2>
               </hgroup>
               <div>
-                <p>Stencil components are just Web Components, so they work with any major framework or no framework at all.</p>
-                <p>Learn how Stencil seamlessly integrates with:</p>
+                <ul class="list--icon list--unstyled">
+                  <li><app-icon name="checkmark"/>Any time security and time sensitivity are factors, SendSecure.to's technology could be a useful addition to your existing security measures. Here are just some ideas to get you started.
+                  </li>
+                  {/*
+                  <li><app-icon name="checkmark"/> Screenshot visual UI diffs</li>
+                  <li><app-icon name="checkmark"/> Auto-generate component documentation <br/><span class="small">(including css variables)</span></li>
+                  */}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container">
+            <div class="two-col">
+              <hgroup>
+                <h2><strong>Limitless Use-Cases</strong></h2>
+              </hgroup>
+              <div>
+                <ul class="list--icon list--unstyled">
+                  <li><app-icon name="checkmark"/>Any time security and time sensitivity are factors, SendSecure.to's technology could be a useful addition to your existing security measures. Here are just some ideas to get you started.
+                  </li>
+                  {/*
+                  <li><app-icon name="checkmark"/> Screenshot visual UI diffs</li>
+                  <li><app-icon name="checkmark"/> Auto-generate component documentation <br/><span class="small">(including css variables)</span></li>
+                  */}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section>
+          <div class="container">
+            <div class="two-col">
+              <hgroup>
+                <h2><strong>Make it yours.</strong> </h2>
+              </hgroup>
+              <div>
+                <p>Need to enhance security of an existing system or product? We can license use of our technology, either by integration into your existing platform or allowing you to brand and tailor ours as needed. Click the link below and to visit Acuvera, the company behind SendSecure, and find out more.</p>
+                {/**<p>Learn how Stencil seamlessly integrates with:</p> */}
                 <ul class="card-links list--unstyled">
                   <li>
                     <stencil-route-link class="card-links__item" url="/docs/react">
