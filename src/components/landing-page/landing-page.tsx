@@ -29,7 +29,20 @@ export class LandingPage {
         <div class="home-hero-container">
         <div class="hero container">
         <div class="home-hero-img-container">
-          <img src="https://www.acuvera.com/sendsecure-media/envelope.svg" class="home-hero-img"></img>
+
+        <div class="Container-zvdq3x-0 HeroVisual__StyledHeroVisual-ovw7um-0 bCVZME revealed">
+    <div class="Base-kt97k7-0 HeroVisual__Preview-ovw7um-1 eqhGQZ active">
+        <div class="Base-kt97k7-0 iTRpmj">
+           <video src="/assets/video/app.mp4" width="375px">
+                <source src="/assets/video/app.mp4"></source>
+            </video>
+        </div>
+    </div>
+    
+    <img src="https://www.acuvera.com/sendsecure-media/envelope.svg" class="home-hero-img"></img>
+    
+</div>
+          
           </div>
           <hgroup>
             
