@@ -1,12 +1,74 @@
 @import url('https://rsms.me/inter/inter.css');
-html {
-    font-family: 'Inter', sans-serif;
+@font-face {
+    font-family: Colfax;
+    font-weight: 200;
+    src: url("https://d33wubrfki0l68.cloudfront.net/20f3ea58e134e100af067faf0d9762dea75e0988/c493c/static/fonts/colfaxwebthin.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/5fabe5328a61652720772d8831643ea38d9c0a5e/91b6f/static/fonts/colfaxwebthin.woff") format("woff");
 }
 
-@supports (font-variation-settings: normal) {
-    html {
-        font-family: 'Inter var', sans-serif;
-    }
+@font-face {
+    font-family: Colfax;
+    font-weight: 300;
+    src: url("https://d33wubrfki0l68.cloudfront.net/bd2cf7329a085220b697849db9363f8bf764535c/5d5b4/static/fonts/colfaxweblight.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/45e4a3df85c6487df438ca4ef24f7ee9f61dead7/dcd68/static/fonts/colfaxweblight.woff") format("woff");
+}
+
+@font-face {
+    font-family: Colfax;
+    font-weight: 400;
+    src: url("https://d33wubrfki0l68.cloudfront.net/51399f4aafa07a27b4c698fe6655923486caaaf3/d6b3e/static/fonts/colfaxwebregular.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/1b3bd62fcbb090df88c51de31db7aef0c2e7c4d9/5fed6/static/fonts/colfaxwebregular.woff") format("woff");
+}
+
+@font-face {
+    font-family: Colfax;
+    font-weight: 400;
+    font-style: italic;
+    src: url("https://d33wubrfki0l68.cloudfront.net/b53361373fe4b7b67ac00d032fe2bdfad73f17c8/3f2a2/static/fonts/colfaxwebregularitalic.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/0493e7b7a0129c7ecc916bac28bae1ef36c061db/5ac10/static/fonts/colfaxwebregularitalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: Colfax;
+    font-weight: 500;
+    src: url("https://d33wubrfki0l68.cloudfront.net/720a825520d9c0241cda20663eef652b603ec667/fec02/static/fonts/colfaxwebmedium.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/2f3aa1ef674c43a36d0733fa9cc75d72ab68f05c/a51e1/static/fonts/colfaxwebmedium.woff") format("woff");
+}
+
+@font-face {
+    font-family: Colfax;
+    font-weight: 500;
+    font-style: italic;
+    src: url("https://d33wubrfki0l68.cloudfront.net/2369a8295d39cd7d651f9bd55efcc7aa1a520a18/4757a/static/fonts/colfaxwebmediumitalic.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/dd4dddd1d28d7a0ccf7525578dab3fc25029ef0c/f8fe1/static/fonts/colfaxwebmediumitalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: Colfax;
+    font-weight: 600;
+    src: url("https://d33wubrfki0l68.cloudfront.net/2a82c1b0090800a732880c27dccade7739f1bf6f/7f902/static/fonts/colfaxwebbold.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/9e9bff0d05521d7f74c957b8a39b3428632cc622/916a7/static/fonts/colfaxwebbold.woff") format("woff");
+}
+
+@font-face {
+    font-family: Colfax;
+    font-weight: 700;
+    src: url("https://d33wubrfki0l68.cloudfront.net/9e8141192757630699d8508b9797d302c08a5799/af3d5/static/fonts/colfaxwebblack.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/3e3ca52e15cbdda05ffe87d0458f3897a1dafb4f/5ddc0/static/fonts/colfaxwebblack.woff") format("woff");
+}
+
+@font-face {
+    font-family: Input;
+    font-weight: 400;
+    src: url("https://d33wubrfki0l68.cloudfront.net/6f4d692d44104bcdbf9c5681d9cc9dd4a6dcbd15/7b779/static/fonts/inputmonoregular.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/9a72fad5066e9b48ce3777603817d41fd9b021e0/d3aa7/static/fonts/inputmonoregular.woff") format("woff");
+}
+
+@font-face {
+    font-family: Input;
+    font-weight: 400;
+    src: url("https://d33wubrfki0l68.cloudfront.net/6f4d692d44104bcdbf9c5681d9cc9dd4a6dcbd15/7b779/static/fonts/inputmonoregular.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/9a72fad5066e9b48ce3777603817d41fd9b021e0/d3aa7/static/fonts/inputmonoregular.woff") format("woff");
+}
+
+@font-face {
+    font-family: Input;
+    font-weight: 500;
+    src: url("https://d33wubrfki0l68.cloudfront.net/d525f89bc56b24781eece424ceb1778e9a81a326/f015b/static/fonts/inputmonomedium.woff2") format("woff2"), url("https://d33wubrfki0l68.cloudfront.net/67ad0f7b2b6fa458c0c6abe7e4c6f6914ff5ebb0/2eab8/static/fonts/inputmonomedium.woff") format("woff");
+}
+
+html {
+    font-family: Colfax, Neue Helvetica W02, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 html,
