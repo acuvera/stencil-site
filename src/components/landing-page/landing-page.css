@@ -13,7 +13,11 @@
                 max-width: 60vw;
                 height: auto;
             }
-            
+
+            /* landing-page .home-hero-img-container{
+                background-color: aquamarine;
+            }
+             */
             landing-page .hero hgroup {
                 position: relative;
                 z-index: 2;

@@ -185,9 +185,12 @@ export class LandingPage {
                   <li><app-icon name="checkmark"/>Build a custom UI library that works across teams and projects</li>
                    */}
                 </ul>
-                {/**<p>Interested in learning more about building design systems with Stencil?</p> */}
+                {/**<p>Interested in learning more about building design systems with Stencil?</p>
+                 * 
+                 *<stencil-route-link anchorClass="btn btn--tertiary btn--small" url="/docs/stencil-for-design-systems">Show me more</stencil-route-link>
+                 * 
+                 */}
                 
-                <stencil-route-link anchorClass="btn btn--tertiary btn--small" url="/docs/stencil-for-design-systems">Show me more</stencil-route-link>
               </div>
             </div>
           </div>
@@ -262,7 +265,12 @@ export class LandingPage {
               <div>
                 <p>Need to enhance security of an existing system or product? We can license use of our technology, either by integration into your existing platform or allowing you to brand and tailor ours as needed. Click the link below and to visit Acuvera, the company behind SendSecure, and find out more.</p>
                 {/**<p>Learn how Stencil seamlessly integrates with:</p> */}
-                <ul class="card-links list--unstyled">
+
+
+                {
+                  /**
+                   * 
+                   *<ul class="card-links list--unstyled">
                   <li>
                     <stencil-route-link class="card-links__item" url="/docs/react">
                       <i class="fw-icon fw-icon--react"></i>
@@ -288,6 +296,9 @@ export class LandingPage {
                     </stencil-route-link>
                   </li>
                 </ul>
+                   */
+                }
+
               </div>
             </div>
           </div>
