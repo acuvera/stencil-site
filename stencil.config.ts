@@ -4,7 +4,7 @@ export const config: Config = {
   outputTargets: [
     {
       type: 'www',
-      baseUrl: 'https://stenciljs.com/',
+      baseUrl: 'https://sendsecure.to/',
       prerenderConfig: './prerender.config.js',
       serviceWorker: {
         unregister: true
