@@ -25,6 +25,7 @@ export class LandingPage {
   render() {
     return (
       <div>
+        <announcement-bar></announcement-bar>
         <div class="home-hero-container">
         <div class="hero container">
         <div class="home-hero-img-container">
