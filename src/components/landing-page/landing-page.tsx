@@ -25,31 +25,22 @@ export class LandingPage {
   render() {
     return (
       <div>
+        <div class="home-hero-container">
         <div class="hero container">
+        <div class="home-hero-img-container">
+          <img src="https://www.acuvera.com/sendsecure-media/envelope.svg" class="home-hero-img"></img>
+          </div>
           <hgroup>
-            <announcement-bar></announcement-bar>
-            <h1>Build. Distribute. Adopt. </h1>
-            <p>Stencil is a toolchain for building reusable, scalable Design Systems. Generate small, blazing fast, and 100% standards based Web Components that run in every browser.</p>
-            <yahr-button href="/docs/getting-started">Get started</yahr-button>
-            <yahr-button variant="secondary" href="/docs/introduction">Why Stencil?</yahr-button>
+            
+            <h1>When maybe isn't good enough.</h1>
+            <p>We provide electronically verified chain of custody for your peace of mind.</p>
+            <a href="/download" color="primary" class="style__StyledCTA-hor0u5-0 bidSQJ"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"><path d="M 13 0 C 20.18 0 26 5.82 26 13 C 26 20.18 20.18 26 13 26 C 5.82 26 0 20.18 0 13 C 0 5.82 5.82 0 13 0 Z M 12 15.621 L 10.172 13.793 C 9.781 13.402 9.148 13.402 8.757 13.793 C 8.367 14.183 8.367 14.817 8.757 15.207 L 12.293 18.743 C 12.683 19.133 13.317 19.133 13.707 18.743 L 17.243 15.207 C 17.633 14.817 17.633 14.183 17.243 13.793 C 16.852 13.402 16.219 13.402 15.828 13.793 L 14 15.621 L 14 8 C 14 7.448 13.552 7 13 7 C 12.448 7 12 7.448 12 8 Z" class="icon-background"></path></svg>
+            Download</a>
+           
           </hgroup>
-          <svg class="landing-page__bg" width="661" height="573" viewBox="0 0 661 573" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path opacity="0.5" d="M301.972 460.59H459.711L374.445 553H217.555L301.972 460.59Z" fill="#EFF1FF"/>
-            <path opacity="0.4" d="M585.269 95.2073H660.886L620.011 140.163H544.801L585.269 95.2073Z" fill="#EBEEFF"/>
-            <path opacity="0.5" d="M90.1233 373.915H177.864L130.436 426.012H43.1665L90.1233 373.915Z" fill="#F4F6FF"/>
-            <path opacity="0.7" d="M245.223 357.66H464.593L346.012 485.785H127.822L245.223 357.66Z" fill="#EBEEFF"/>
-            <path opacity="0.6" d="M532.162 232.02H654.938L588.571 304.449H466.456L532.162 232.02Z" fill="#EFF1FF"/>
-            <path opacity="0.5" d="M536.924 369.634H612.541L571.666 414.59H496.456L536.924 369.634Z" fill="#F4F6FF"/>
-            <path opacity="0.4" d="M113.243 107.654H188.86L147.985 152.61H72.7747L113.243 107.654Z" fill="#EBEEFF"/>
-            <path opacity="0.5" d="M330.845 158.854H477.2L398.087 245.02H252.519L330.845 158.854Z" fill="#F4F6FF"/>
-            <path opacity="0.5" d="M508.327 0H636L566.986 75H440L508.327 0Z" fill="#F4F6FF"/>
-            <path opacity="0.5" d="M64.4925 502H185L119.859 573H0L64.4925 502Z" fill="#F4F6FF"/>
-            <path opacity="0.7" d="M602.805 205.808H152.133L33.6135 333.933H484.286L602.805 205.808Z" fill="#EBEEFF"/>
-            <path opacity="0.7" d="M293.465 53.9561H512.026L393.989 182.081H175.254L293.465 53.9561Z" fill="#E6EAFF"/>
-            <path opacity="0.43" d="M273.266 9H374.089L319.589 67.6927H219.309L273.266 9Z" fill="#F4F6FF"/>
-          </svg>
+          
         </div>
-
+        </div>
         <div class="companies">
           <div class="container">
             <h3>Powering design systems and cross-framework components at</h3>
