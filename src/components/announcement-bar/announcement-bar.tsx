@@ -11,9 +11,7 @@ export class AnnouncementBar {
   render() {
     return ([
       <stencil-route-link url="/blog/stencil-roadmap-fall-2019" class="announcement">
-        <strong class="announcement__pill">Blog</strong>
-        Fall 2019 Stencil Roadmap
-        <app-icon name="arrow-right"></app-icon>
+        <a href="" class="Banner__Wrapper-sc-4stcci-0 jJmRoA"><div class="container "><strong>Peace of mind, delivered by SendSecure.</strong><strong class="cta">Coming soon ›</strong></div></a>
       </stencil-route-link>
     ])
   }

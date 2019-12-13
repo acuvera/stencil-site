@@ -1,41 +1,42 @@
-.announcement a {
-  background: #F4F4FF;
-  border-radius: 240px;
-  font-size: 13px;
-  line-height: 160%;
-  color: #4441E1;
-  padding: 2px 4px;
-  display: inline-flex;
-  justify-content: flex-start;
-  align-items: center;
-  font-weight: 500;
-  cursor: pointer;
-  text-decoration: none;
+.jJmRoA {
+    position: fixed;
+    top: 0px;
+    background-image: linear-gradient(-90deg, rgb(153, 0, 255), rgb(87, 30, 255), rgb(0, 153, 255));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    height: 32px;
+    font-size: 15px;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.0470588) 0px -1px 0px 0px inset;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
-.announcement strong {
-  display: block;
-  background: #4C48FF;
-  border-radius: 380px;
-  color: white;
-  padding: 3px 5px 4px;
-  margin-right: 8px;
-  text-transform: uppercase;
-  font-size: 10px;
-  line-height: 1;
+.jJmRoA .container {
+    width: 100%;
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 64px;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    text-align: center;
 }
 
-.announcement app-icon .icon-arrow-right {
-  fill: #A09DFF;
-  height: 14px;
-  width: 8px;
-  display: block;
-  margin: 0 8px 0 8px;
-  transform: scale(.66);
-  opacity: .4;
-  transition: .3s transform ease;
-}
-
-.announcement a:hover app-icon .icon-arrow-right {
-  transform: scale(.66) translateX(2px);
+landing-page .cta {
+    background: none;
 }
