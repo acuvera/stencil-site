@@ -230,6 +230,7 @@
             
             landing-page section .two-col {
                 display: flex;
+                
             }
             
             landing-page section .two-col hgroup {
@@ -252,13 +253,27 @@
             }
             
             landing-page h2 {
-                font-weight: 600;
-                font-size: 32px;
+                /* font-weight: 600;
+                font-size: 50px;
                 line-height: 1.2;
                 letter-spacing: -0.018em;
                 color: #7A798D;
                 margin-top: 0;
-                max-width: 416px;
+                max-width: 416px; */
+
+                font-family: Colfax,Neue Helvetica W02,Helvetica Neue,Helvetica,Arial,sans-serif;
+                font-weight: 400;
+                line-height: 1.5;
+                margin-top: 0;
+                margin-bottom: 20px;
+                font-weight: 600;
+                line-height: 1.1;
+                font-size: 50px;
+                -webkit-letter-spacing: -1.5px;
+                -moz-letter-spacing: -1.5px;
+                -ms-letter-spacing: -1.5px;
+                letter-spacing: -1.5px;
+                color: #000;
             }
             
             landing-page h2 strong {
@@ -277,6 +292,19 @@
                 font-weight: 600;
             }
             
+            landing-page .paragraphs{
+                font-family: Colfax,Neue Helvetica W02,Helvetica Neue,Helvetica,Arial,sans-serif;
+                font-weight: 400;
+                line-height: 1.5;
+                margin-top: 0;
+                margin-bottom: 20px;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 1.4;
+                color: #222;
+                margin-bottom: 40px;
+            }
+
             landing-page p,
             landing-page ul {
                 margin: 0;
@@ -588,6 +616,7 @@
             
             .card-links li {
                 margin: 6px;
+                
             }
             
             .card-links__item a {
