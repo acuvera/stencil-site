@@ -12,7 +12,7 @@
             landing-page .home-hero-img {
                 max-width: 60vw;
                 height: auto;
-            }
+            }  
 
             /* landing-page .home-hero-img-container{
                 background-color: aquamarine;
@@ -347,6 +347,8 @@
             
             landing-page section {
                 padding: 160px 0;
+                /* background-color: aquamarine; */
+                margin-bottom: 5px;
             }
             
             landing-page section:not(.overview):not(.gradient-bg)+section:not(.stencil-story) {
@@ -355,7 +357,6 @@
             
             landing-page section .two-col {
                 display: flex;
-                
             }
             
             landing-page section .two-col hgroup {
@@ -364,6 +365,8 @@
             
             landing-page section .two-col>* {
                 flex: 0 0 50%;
+                display: flex;
+                align-items: center;
             }
             
             landing-page section p+p,
@@ -428,6 +431,8 @@
                 line-height: 1.4;
                 color: #222;
                 margin-bottom: 40px;
+                vertical-align: middle;
+               
             }
 
             landing-page p,
@@ -778,4 +783,12 @@
             
             .card-links__item .fw-icon {
                 margin: 8px 0 6px;
+            }
+
+
+            .stripOne{
+                height: 500px;
+                width: 300px;
+                background-color: yellow;
+                vertical-align: middle;
             }

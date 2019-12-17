@@ -12,7 +12,7 @@ export class LandingPage {
   @State() copiedState = 0;
 
   constructor() {
-    document.title = `Stencil`;
+    document.title = `SendSecure`;
   }
 
   copyCommand = () => {
@@ -187,11 +187,16 @@ export class LandingPage {
         <section>
           <div class="container">
             <div class="two-col">
-              <hgroup>
-                <h2><strong>Verified Integrity</strong></h2>
+            <hgroup>
+              <div class = "stripOne">
+                  sip
+                </div>
               </hgroup>
+
               <div>
                 <ul class="list--icon list--unstyled">
+                <h2><strong>Verified Integrity</strong></h2>
+
                   <li class="paragraphs"> Battery powered sensors in the envelope detect any attempts to open or manipulate the package.</li>
                   {/**
                    *<li><app-icon name="checkmark"/>Web components run on any platform or device</li>
@@ -205,6 +210,7 @@ export class LandingPage {
                  */}
                 
               </div>
+
             </div>
           </div>
         </section>
@@ -213,10 +219,13 @@ export class LandingPage {
           <div class="container">
             <div class="two-col">
               <hgroup>
-                <h2><strong>Designated Recipient</strong></h2>
+                <div class = "stripOne">
+                  sip
+                </div>
               </hgroup>
               <div>
                 <ul class="list--icon list--unstyled">
+                <h2><strong>Designated Recipient</strong></h2>
                   <li class="paragraphs">The sender will receive proof that the package was received intact by the designated recipient.</li>
                   {/*
                   <li><app-icon name="checkmark"/> Screenshot visual UI diffs</li>
@@ -233,12 +242,16 @@ export class LandingPage {
         <section>
           <div class="container">
             <div class="two-col">
-              <hgroup>
-                <h2><strong>Limitless Use-Cases</strong></h2>
+            <hgroup>
+                <div class = "stripOne">
+                  sip
+                </div>
               </hgroup>
               <div>
                 <ul class="list--icon list--unstyled">
                 {/**<app-icon name="checkmark"/> */}
+                <h2><strong>Limitless Use-Cases</strong></h2>
+
                   <li class="paragraphs">Any time security and time sensitivity are factors, SendSecure.to's technology could be a useful addition to your existing security measures. Here are just some ideas to get you started.
                   </li>
                   {/*
@@ -256,10 +269,14 @@ export class LandingPage {
           <div class="container">
             <div class="two-col">
               <hgroup>
-                <h2><strong>Make it yours.</strong> </h2>
+              <div class = "stripOne">
+                  sip
+                </div>
               </hgroup>
               <div>
-                <p class="paragraphs">Need to enhance security of an existing system or product? We can license use of our technology, either by integration into your existing platform or allowing you to brand and tailor ours as needed. Click the link below and to visit Acuvera, the company behind SendSecure, and find out more.</p>
+              <h2><strong>Make it yours.</strong> </h2>
+
+                <p class="paragraphs">Need to enhance security of an existing system or product? We can license use of our technology, either by integration into your existing platform or allowing you to brand and tailor ours as needed.</p>
                 {/**<p>Learn how Stencil seamlessly integrates with:</p> */}
 
 
